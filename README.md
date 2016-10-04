@@ -59,4 +59,4 @@ This theme is released under the MIT License. For more information read the [lic
 
 [issue_tracker]: https://github.com/alrayyes/wercker-surge-deploy-step/issues
 [pull_request]: https://github.com/alrayyes/wercker-surge-deploy-step/pulls
-[license]: https://github.com/alrayyes/wercker-surge-deploy-step/blob/master/LICENSE
+[license]: https://github.com/alrayyes/wercker-surge-deploy-step/blob/master/LICENSE.md

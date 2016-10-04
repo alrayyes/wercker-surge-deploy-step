@@ -44,7 +44,7 @@ fi
 debug "$surge_command"
 
 set +e
-$surge_command
+$surge_command public $WERCKER_SURGE_DOMAIN --token $WERCKER_SURGE_TOKEN
 result="$?"
 set -e
 

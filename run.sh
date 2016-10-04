@@ -2,7 +2,7 @@
 
 # return true if local npm package is installed at ./node_modules, else false
 # example
-# echo "gulpacular : $(npm_package_is_installed gulpacular)"
+# echo "surge : $(npm_package_is_installed surge)"
 function npm_package_is_installed {
   # set to true initially
   local return_=true
@@ -13,7 +13,7 @@ function npm_package_is_installed {
 }
 
 # First make sure surge is installed
-if ! type gulp &> /dev/null ; then
+if ! type surge &> /dev/null ; then
     # Check if it is in repo
     if ! $(npm_package_is_installed surge) ; then
         info "surge not installed, trying to install it through npm"
@@ -27,8 +27,8 @@ if ! type gulp &> /dev/null ; then
             info "installing surge"
             npm config set ca "" --silent
             sudo npm install npm -g --silent
-            sudo npm install -g --silent gulp
-            gulp_command="surge"
+            sudo npm install -g --silent surge
+            surge_command="surge"
         fi
     else
         info "surge is available locally"

@@ -48,3 +48,15 @@ deploy:
         token: "94a08da1fecbb6e8b46990538c7b50b2"
         domain: "example.com"
 ```
+
+# Contributing
+
+Report any bugs using the [issue tracker][issue_tracker]. Submit your own bug fixes or feature additions via a [pull request][pull_request].
+
+# License
+
+This theme is released under the MIT License. For more information read the [license][license].
+
+[issue_tracker]: https://github.com/alrayyes/wercker-surge-deploy-step/issues
+[pull_request]: https://github.com/alrayyes/wercker-surge-deploy-step/pulls
+[license]: https://github.com/alrayyes/wercker-surge-deploy-step/blob/master/LICENSE

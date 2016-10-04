@@ -41,8 +41,8 @@ else
     surge_command="surge"
 fi
 
-SURGE_LOGIN=${WERCKER_SURGE_LOGIN}
-surge_command="${surge_command} ${WERCKER_SURGE_DIRECTORY} ${WERCKER_SURGE_DOMAIN} --token ${WERCKER_SURGE_TOKEN}"
+SURGE_LOGIN=${WERCKER_SURGE_DEPLOY_LOGIN}
+surge_command="${surge_command} ${WERCKER_SURGE_DEPLOY_DIRECTORY} ${WERCKER_SURGE_DEPLOY_DOMAIN} --token ${WERCKER_SURGE_DEPLOY_TOKEN}"
 
 debug "$surge_command"
 

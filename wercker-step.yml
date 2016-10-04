@@ -1,5 +1,5 @@
 name: surge-deploy
-version: 0.1.7
+version: 0.1.8
 description: Deploys a directory to surge.sh.
 keywords:
   - deploy

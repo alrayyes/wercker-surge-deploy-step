@@ -41,10 +41,12 @@ else
     surge_command="surge"
 fi
 
+surge_command ="$surge_command $WERCKER_SURGE_DIRECTORY $WERCKER_SURGE_DOMAIN --token $WERCKER_SURGE_TOKEN"
+
 debug "$surge_command"
 
 set +e
-$surge_command public $WERCKER_SURGE_DOMAIN --token $WERCKER_SURGE_TOKEN
+$surge_command
 result="$?"
 set -e
 

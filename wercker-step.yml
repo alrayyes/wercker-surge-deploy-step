@@ -1,0 +1,20 @@
+name: surge-deploy
+version: 0.1.0
+description: Deploys a directory to surge.sh.
+keywords:
+  - deploy
+  - surge.sh
+properties:
+  surge_login:
+    type: string
+    required: true
+  directory:
+    type: string
+    default: public
+    required: true
+  token:
+    type: string
+    required: true
+  domain:
+    type: string
+    required: true

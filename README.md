@@ -1,5 +1,7 @@
 # Wercker Step Surge Deploy
 
+[![wercker status](https://app.wercker.com/status/53608930d55146d82ac67f64a6b82e74/m "wercker status")](https://app.wercker.com/project/bykey/53608930d55146d82ac67f64a6b82e74)
+
 This step wil deploy your site to [Surge.sh](https://surge.sh/) using the [surge cli client](https://www.npmjs.com/package/surge).
 
 # Requirements

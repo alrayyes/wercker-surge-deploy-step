@@ -1,4 +1,4 @@
-# Wercker Step Surge Deploy
+# Wercker Surge Deploy Step 
 
 [![wercker status](https://app.wercker.com/status/53608930d55146d82ac67f64a6b82e74/m "wercker status")](https://app.wercker.com/project/bykey/53608930d55146d82ac67f64a6b82e74)
 
